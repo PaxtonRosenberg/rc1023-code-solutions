@@ -78,14 +78,12 @@ function categorizeAcidity(pH) {
 function introduceWarnerBro(name) {
   switch (name) {
     case 'dot':
-      console.log("I'm cute~");
-      break;
+      return "I'm cute~";
     case 'yakko':
     case 'wakko':
-      console.log("We're the warner brothers!");
-      break;
+      return "We're the warner brothers!";
     default:
-      console.log('Goodnight everybody!');
+      return 'Goodnight everybody!';
   }
 }
 
@@ -93,26 +91,18 @@ function introduceWarnerBro(name) {
 function recommendMovie(genre) {
   switch (genre) {
     case 'action':
-      console.log('Kill Bill: Vol. 1');
-      break;
+      return 'Kill Bill: Vol. 1';
     case 'comedy':
-      console.log('The Hangover');
-      break;
+      return 'The Hangover';
     case 'horror':
-      console.log('Alien');
-      break;
+      return 'Alien';
     case 'drama':
-      console.log('Driving Miss Daisy');
-      break;
+      return 'Driving Miss Daisy';
     case 'musical':
-      console.log("Singin' in the Rain");
-      break;
+      return "Singin' in the Rain";
     case 'sci-fi':
-      console.log('2001: A Space Odyssey');
-      break;
+      return '2001: A Space Odyssey';
     default:
-      console.log(
-        'Genre not recognized. Choose between action, comedy, horror, drama, musical, or sci-fi'
-      );
+      return 'Genre not recognized. Choose between action, comedy, horror, drama, musical, or sci-fi';
   }
 }
