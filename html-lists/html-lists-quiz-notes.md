@@ -5,8 +5,9 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is the difference between an ordered list and an unordered list in HTML?
-
+  the order matters in an ordered list while it does not in an unordered list
 - Is an HTML list a block element or an inline element?
+  block element
 
 ## Notes
 
