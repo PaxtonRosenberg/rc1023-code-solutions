@@ -1,0 +1,12 @@
+h1 {
+  font-family: 'Playpen Sans', serif;
+}
+
+h2 {
+  font-family: 'Playpen Sans', serif;
+}
+
+body > p {
+  font-family: 'Sometype Mono', monospace;
+  line-height: 1.8;
+}
