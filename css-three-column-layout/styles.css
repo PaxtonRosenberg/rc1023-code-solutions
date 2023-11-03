@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+.circle-images {
+  width: 50%;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-one-third {
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.container {
+  background-color: rgb(25, 150, 218);
+}
+
+.image-container {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: white;
+}
+
+h2 {
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+p {
+  font-size: 12px;
+}
+
+.text {
+  color: white;
+  font-family: Lato, sans-serif;
+  text-align: center;
+}
+
+.row {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
