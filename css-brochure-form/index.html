@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS Challenge - Brochure Form</title>
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <h2>Learn More</h2>
+      <form>
+        <section>
+          <label for="company_email">Company Email</label>
+          <section>
+            <input
+              type="text"
+              id="company_email"
+              name="company_email"
+              placeholder="sally@company.co" />
+          </section>
+        </section>
+        <section>
+          <label for="name">Name</label>
+          <section>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Sally Smith" />
+          </section>
+        </section>
+        <section>
+          <label for="where">Where are you hiring?</label>
+          <section>
+            <input
+              type="text"
+              id="where"
+              name="where"
+              placeholder="City, Country" />
+          </section>
+        </section>
+        <section>
+          <label for="num_of_engineers_needed"
+            >How many engineers are you hiring in the next 6 months?</label
+          >
+          <section>
+            <select name="num_of_engineers_needed" id="num_of_engineers_needed">
+              <option value="small">1-2 Engineers</option>
+              <option value="medium">3-6 Engineers</option>
+              <option value="large">7-10 Engineers</option>
+              <option value="xlarge">10&#43; Engineers</option>
+            </select>
+          </section>
+        </section>
+        <section>
+          <button>Submit</button>
+        </section>
+      </form>
+    </div>
+  </body>
+</html>
