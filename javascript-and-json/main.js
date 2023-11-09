@@ -20,8 +20,10 @@ console.log('typeof library:', typeof library);
 
 console.log('JSON.stringify typeof library:', typeof JSON.stringify(library));
 
-const student = JSON.stringify({ id: '98042423', name: 'Paxton' });
+const studentJSON = '{"id":98042423,"name":"Paxton"}';
 
-console.log('JSON string:', student + ' typeof student: ' + typeof student);
+console.log('studentJSON:', studentJSON);
+console.log('typeof studentJSON:', typeof studentJSON);
 
-console.log('typeof JSON.parse:', typeof JSON.parse(student));
+console.log('JSON.parse of studentJSON:', JSON.parse(studentJSON));
+console.log('JSON.parse typeof studentJSON:', typeof JSON.parse(studentJSON));
