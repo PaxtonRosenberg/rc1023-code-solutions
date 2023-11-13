@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
+  margin: 0;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5rem;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.correct {
+  color: rgb(53, 242, 53);
+  text-decoration-line: underline;
+}
+
+.incorrect {
+  color: red;
+  text-decoration-line: underline;
+}
+
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px double black;
+  border-radius: 2%;
+  height: 8rem;
+  width: 13rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.start-over {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+}
