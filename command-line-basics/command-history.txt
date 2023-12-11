@@ -1,0 +1,500 @@
+   59  git add css/styles.css
+   60  git add index.html
+   61  git add js/data.js
+   62  git add js/main.js
+   63  git status
+   64  git commit -m "user can view their entries"
+   65  git status
+   66  git add js/main.js
+   67  git status
+   68  git commit -m "issue 2 user can view their entries"
+   69  git status
+   70  git add js/main.js
+   71  git status
+   72  git commit -m "issue 2 user can view their entries"
+   73  git status
+   74  git add index.html
+   75  git add js/main.js
+   76  git status
+   77  git commit -m "issue 2 user can view their entries"
+   78  git status
+   79  git add css/styles.css
+   80  git status
+   81  git commit -m "issue 2 user can view their entries"
+   82  git push origin issue-2-user-can-view-their-entries 
+   83  git branch issue-3-user-can-edit-an-entry
+   84  git switch issue-3-user-can-edit-an-entry 
+   85  git status
+   86  git add css/styles.css
+   87  git add js/main.js
+   88  git status
+   89  git commit -m "Updated the renderEntry function to have the font awesome pencil and a data entry id attribute in the list item"
+   90  git push origin issue-3-user-can-edit-an-entry 
+   91  git status
+   92  git add css/style.css
+   93  git add index.html
+   94  git addcss/styles.css
+   95  git add css/styles.css
+   96  git add js/main.js
+   97  git status
+   98  git commit -m "Add an event listener to the ul in the entries view which does the following when an entry's pencil icon is clicked + various tasks with that event listener"
+   99  git push origin issue-3-user-can-edit-an-entry 
+  100  git status
+  101  git add css/styles.css
+  102  git add js/main.js
+  103  git status
+  104  git commit -m "issue-3-final"
+  105  git push origin issue-3-user-can-edit-an-entry 
+  106  git status
+  107  git pull origin main
+  108  git branch issue-4-user-can-delete-an-entry
+  109  git switch issue-4-user-can-delete-an-entry 
+  110  git status
+  111  git add css/styles.css
+  112  git add index.html
+  113  git add js/main.js
+  114  git status
+  115  git commit -m "Add a button to the entry form with the text Delete Entry which is only visible when an entry is currently being edited."
+  116  git push origin issue-4-user-can-delete-an-entry 
+  117  git status
+  118  git add css/styles.css
+  119  git add index.html
+  120  git add js/main.js
+  121  git status
+  122  git commit -m "Show a confirmation modal when the user clicks Delete Entry"
+  123  git push origin issue-4-user-can-delete-an-entry 
+  124  git status
+  125  git add js/main.js
+  126  git status
+  127  git commit -m "When the user clicks Cancel, hide the modal."
+  128  git push origin issue-4-user-can-delete-an-entry 
+  129  git status
+  130  git add css/styles.css
+  131  git add.index/html
+  132  git add index.html
+  133  git add js/main.js
+  134  git status
+  135  git commit -m "issue 4 final"
+  136  git push origin issue-4-user-can-delete-an-entry 
+  137  git switch main
+  138  git pull origin main
+  139  git switch issue-4-user-can-delete-an-entry 
+  140  git switch workspace/
+  141  git workspace
+  142  git --help
+  143  git switch workspaces/
+  144  workspaces
+  145  cd/workspaces
+  146  git clone git@github.com:Sean-Hughes-1/weekly-planner.git
+  147  cd week-planner
+  148  cd weekly-planner
+  149  npm install
+  150  git switch main
+  151  cd workspaces/
+  152  cs workspaces
+  153  cd workspaces
+  154  cd /workspaces/
+  155  git clone git@github.com:Sean-Hughes-1/weekly-planner.git
+  156  cd weekly-planner
+  157  npm install
+  158  git pull origin main
+  159  git switch string-manipulation-3
+  160  git switch main
+  161  git branch es6-template-literals
+  162  git switch es6-template-literals 
+  163  git status
+  164  git add es6-template-literals/
+  165  git status
+  166  git commit -m "Completed es6-template-literals exercise"
+  167  git push origin es6-template-literals 
+  168  git switch main
+  169  git pull origin main
+  170  git switch es6-template-literals 
+  171  git status
+  172  git add es6-template-literals/
+  173  git commit -m ('corrected mistakes on es6-template-literals exercise')
+  174  git commit -m 'corrected mistakes on es6-template literals exercise'
+  175  git push origin es6-template-literals 
+  176  git swtich main
+  177  git switch main
+  178  git pull origin main
+  179  git branch javascript-timers
+  180  git switch javascript-timers
+  181  git status
+  182  git add javascript-timers/
+  183  git status
+  184  git commit -m "Completed javascript-timers exercise"
+  185  git push origin javascript-timers
+  186  git switch main
+  187  git pull origin main
+  188  git branch javascript-carousel
+  189  git switch javascript-carousel 
+  190  git switch main
+  191  git pull origin main
+  192  git branch http-messages
+  193  git switch http-messages 
+  194  https://example.com
+  195  cd code solutions
+  196  cd code-solutions
+  197  $ https httpie.io/hello
+  198  https httpie.example.com
+  199  https://example.com
+  200  http -v pie.dev/get
+  201  http http://example.com
+  202  http --verbose http://example.com
+  203  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+  204  http --body GET https://example.com > http-messages/index.html
+  205  git status
+  206  git add http-messages/
+  207  git status
+  208  git commit -m "Completed http-messages exercise"
+  209  git push origin http-messages 
+  210  git switch main
+  211  git pull origin main
+  212  git branch javascript-ajax
+  213  git switch javascript-ajax
+  214  git status
+  215  git add javascript-ajax/
+  216  git status
+  217  git commit -m "Completed javascript-ajax exercise"
+  218  git push origin javascript-ajax 
+  219  git switch main
+  220  git pull origin main
+  221  git switch javascript-carousel 
+  222  git switch main
+  223  git switch javascript-carousel 
+  224  git status
+  225  git add javascript-carousel/
+  226  git commit -m "Completed javascript-carousel challenge"
+  227  git push origin javascript-carousel 
+  228  git switch main
+  229  git pull origin main
+  230  git switch string-manipulation-3
+  231  git switch canvas medical
+  232  git switch css-canvas-medical 
+  233  git switch string-manipulation-3
+  234  git switch main
+  235  git switch css-canvas-medical
+  236  git status
+  237  git add css-canvas-medical
+  238  git commit -m "Completed css-canvas-medical product page"
+  239  git status
+  240  git add css-canvas-medical
+  241  git status
+  242  git commit -m "Completed css-canvas-medical product page"
+  243  git add css-canvas-medical/
+  244  git commit -m "Completed css-canvas-medical product page"
+  245  git add css-canvas-medical/
+  246  git commit -m "Completed css-canvas-medical product page"
+  247  git push origin css-canvas-medical 
+  248  git switch main
+  249  git pull origin main
+  250  git clone git@github.com:PaxtonRosenberg/ajax-project.git
+  251  cd ajax-project
+  252  npm install
+  253  git branch objects-revisited
+  254  git switch objects-revisited 
+  255  git status
+  256  git add objects-revisited
+  257  git status
+  258  git commit -m "objects-revisited exercise"
+  259  git push origin objects-revisited 
+  260  git pull origin main
+  261  git switch main
+  262  git pull origin main
+  263  git branch es6-destructuring/
+  264  git branch es6-destructuring
+  265  git switch es6-destructuring 
+  266  git status
+  267  git add es6-destructuring
+  268  git status
+  269  git commit -m "Completed es6-destructuring exercise"
+  270  git push origin es6-destructuring 
+  271  git switch main
+  272  git pull origin main
+  273  git branch es6-arrow-functions
+  274  git switch es6-arrow-functions 
+  275  git status
+  276  git add es6-arrow-functions/
+  277  git status
+  278  git commit -m "Completed es6-arrow-functions exercise"
+  279  git push origin es6-arrow-functions 
+  280  git switch main
+  281  git pull origin main
+  282  git pull origin main
+  283  git branch array-methods
+  284  git switch array-methods
+  285  git status
+  286  git add array.methods
+  287  git add array-methods
+  288  git status
+  289  git commit -m "completed array-methods exercise"
+  290  git push origin array-methods 
+  291  git switch main
+  292  git switch array-methods
+  293  git status
+  294  git add array-methods
+  295  git status
+  296  git commit -m "Added toFixed method on the discountedPrices function in maps.js"
+  297  git push origin array-methods 
+  298  git swith main
+  299  git switch main
+  300  git branch es6-operators
+  301  git switch es6-operators 
+  302  git status
+  303  git add es6-operators/
+  304  git status
+  305  git commit -m "Completed es6-operators exercise"
+  306  git push origin es6-operators 
+  307  git switch main
+  308  git pull origin main
+  309  git pull origin main
+  310  git switch css-canvas-medical 
+  311  git status
+  312  git add css-canvas-medical/
+  313  git status
+  314  git commit -m "Completed css-canvas-medical implementation page"
+  315  git status
+  316  git add css-canvas-medical/
+  317  git status
+  318  git commit -m ""Completed css-canvas-medical implementation page"
+  319  git status
+  320  git commit -m "Completed css-canvas-medical implementation page"
+  321  git status
+  322  git add css-canvas-medical/
+  323  git status
+  324  git commit -m ""Completed css-canvas-medical implementation page"
+  325  git status
+  326  git commit -m "Completed css-canvas-medical implementation page"
+  327  git status
+  328  git add css-canvas-medical/
+  329  git status
+  330  git commit -m "Completed css-canvas-medical implementation page"
+  331  git status
+  332  git add css-canvas-medical/
+  333  git status
+  334  git commit -m "Completed css-canvas-medical implementation page"
+  335  git push origin css-canvas-medical 
+  336  git switch main
+  337  git branch npm-intro
+  338  git switch npm-intro 
+  339  cd npm-intro
+  340  cp .npm-init.js ~/.npm-init.js
+  341  cd /path/to/package
+  342  npm init --yes
+  343  cd npm-intro/
+  344  cp .npm-init.js ~/.npm-init.js
+  345  cd /path/to/npm-intro
+  346  npm init --yes
+  347  cd npm-intro/
+  348  cp .npm-init.js ~/.npm-init.js
+  349  cd /path/to/package.json
+  350  cd /path/to/npm-intro
+  351  npm init --yes
+  352  type
+  353  npm init --yes
+  354  npm install import $ from "jquery";
+  355  npm install <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  356  npm install https://code.jquery.com/jquery-3.7.1.min.js
+  357  npm install jquery
+  358  npm install --save-dev
+  359  npm init @eslint/config
+  360  npm init @eslint/config
+  361  npm install --save-dev
+  362  npm run hello
+  363  npm run hello
+  364  npm run hello
+  365  npm run hello
+  366  cd ..
+  367  git status
+  368  git add npm-intro/
+  369  git statuds
+  370  git status
+  371  git commit -m "Completed npm-intro exercise"
+  372  git push origin npm-intro 
+  373  git switch main
+  374  git pull origin main
+  375  git branch typescript-intro
+  376  git switch typescript-intro 
+  377  git status
+  378  git add typescript-intro
+  379  git status
+  380  git commit -m "Completed typescript-intro reading and quiz"
+  381  git push origin typescript-intro 
+  382  git switch main
+  383  npm install typescript --save-dev
+  384  npm i
+  385  git branch typescript-primitives-and-variables
+  386  git switch typescript-primitives-and-variables 
+  387  cd typescript-primitives-and-variables
+  388  npx tsc --watch main.ts
+  389  cd typescript-primitives-and-variables/
+  390  npx tsc --watch main.ts
+  391  git status
+  392  git add tsconfig.json
+  393  git add typescript-primitives-and-variables/
+  394  git status
+  395  git add package-lock.json
+  396  git add package.json
+  397  git status
+  398  git commit -m "Completed typescript-primitives-and-variables exercise"
+  399  git push origin typescript-primitives-and-variables 
+  400  git switch main
+  401  git pull origin main
+  402  git branch typescript-operators-and-expressions/
+  403  git branch typescript-operators-and-expressions
+  404  git switch typescript-operators-and-expressions 
+  405  cd typescript-operators-and-expressions/
+  406  npx tsc --watch main.ts
+  407  git status
+  408  git add typescript-operators-and-expressions/
+  409  git commit -m "Completed typescript-operators-and-expressions exercise"
+  410  git push origin typescript-operators-and-expressions 
+  411  git switch main
+  412  git pull origin main
+  413  git branch typescript-objects
+  414  git switch typescript-objects 
+  415  cd typescript-objects/
+  416  npx tsc --watch main.ts
+  417  git status
+  418  git add typescript-objects
+  419  git status
+  420  git commit -m "Completed typescript-objects exercise"
+  421  git push origin typescript-objects 
+  422  git switch main
+  423  git pull origin main
+  424  git branch typescript-functions
+  425  git switch typescript-functions 
+  426  cd typescript-functions
+  427  npx tsc --watch main.js
+  428  cd typescript-functions
+  429  npx tsc --watch main.ts
+  430  cd typescript-functions
+  431  npx tsc --watch main.ts
+  432  git status
+  433  git add typescript-functions
+  434  git status
+  435  git commit -m "Completed typescript-function exercise"
+  436  git push origin typescript-functions 
+  437  git switch main
+  438  git pull origin main
+  439  git switch css-canvas-medical 
+  440  git status
+  441  git add css-canvas-medical
+  442  git status
+  443  git commit -m "Completed css-canvas-medical about us page"
+  444  git push origin css-canvas-medical 
+  445  git switch main
+  446  git pull origin main
+  447  git pull origin main
+  448  git branch unit-tests-jest
+  449  git switch unit-tests-jest 
+  450  cd unit-tests-jest/
+  451  npm install
+  452  npm audit fix
+  453  npm test
+  454  npm test
+  455  git status
+  456  git add unit-tests-jest
+  457  git status
+  458  git commit -m "Completed unit-tests-jest exercise"
+  459  git push origin unit-tests-jest 
+  460  git switch main
+  461  git pull origin main
+  462  git branch typescript-algos
+  463  git switch typescript-algos 
+  464  cd typescript-algos
+  465  npm install
+  466  npm test
+  467  git status
+  468  git add typescript-algos/
+  469  git status
+  470  git commit -m "Completed typescript-algos exercise"
+  471  git push origin typescript-algos 
+  472  git switch main
+  473  git pull origin main
+  474  git status
+  475  git switch css-canvas-medical 
+  476  git status
+  477  git add css-canvas-medical
+  478  git status
+  479  git commit -m "Completed css-canvas-medical blog page"
+  480  git status
+  481  git add css-canvas-medical/
+  482  git status
+  483  git commit -m "Completed css-canvas-medical blog page"
+  484  git push origin css-canvas-medical 
+  485  git switch main
+  486  git pull origin main
+  487  git switch css-canvas-medical 
+  488  git status
+  489  git add css-canvas-medical/
+  490  git status
+  491  git commit -m "Completed css-canvas-medical contact-us page"
+  492  git status
+  493  git add css-canvas-medical/
+  494  git status
+  495  git commit -m "Completed css-canvas-medical contact-us page"
+  496  git push origin css-canvas-medical 
+  497  git switch main
+  498  git pull origin main
+  499  git pull origin main
+  500  git branch
+  501  git branch command-line-basics
+  502  git switch command-line-basics 
+  503  cd command-line-basics/
+  504  man man
+  505  cat laziness.txt
+  506  cat impatience.txt
+  507  cat hubris.txt
+  508  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  509  cat three-virtues.txt
+  510  man ls
+  511  ls -a
+  512  ls -F
+  513  ls lfz-staff/
+  514  ls lfz-staff/ -a
+  515  ls lfz-staff/ -F
+  516  ls -aF lfz/staff > lfz-staff/contents.txt
+  517  ls -aF lfz-staff > lfz-staff/contents.txt
+  518  cat lfz-staff/contents.txt
+  519  man pwd
+  520  pwd
+  521  pwd > i-was=here.txt
+  522  pwd > i-was-here.txt
+  523  ls
+  524  cat i-was-here.txt
+  525  man echo
+  526  echo 'Hello, World!'
+  527  echo 'Hello, World!' > hello.txt
+  528  ls
+  529  cat hello.txt
+  530  man touch
+  531  touch tag-youre-it.txt
+  532  touch boop.txt
+  533  touch snoot/boop.txt
+  534  ls snoot/
+  535  man mkdir
+  536  mkdir parent
+  537  ls parent/
+  538  mkdir -p parent/child/grandchild
+  539  touch parent/child/grandchild/.gitkeep
+  540  ls -a
+  541  ls -a parent/
+  542  ls -a parent/child/grandchild
+  543  man mv
+  544  mv pokiemans pokemon
+  545  ls pokemon
+  546  man rm
+  547  rm lol.txt
+  548  ls lol.txt
+  549  rm -r kill-me/
+  550  ls kill-me/
+  551  man rm
+  552  man cp
+  553  cp and-then.txt no-and-then.txt
+  554  ls and-then.txt no-and-then.txt
+  555  cat and-then.txt no-and-then.txt
+  556  man history
+  557  history
+  558  history > command-history.txt
