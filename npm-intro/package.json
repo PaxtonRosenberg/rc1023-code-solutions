@@ -1,5 +1,5 @@
 {
-  "name": "type",
+  "name": "npm-intro",
   "version": "1.0.0",
   "type": "module",
   "main": "server.js",
