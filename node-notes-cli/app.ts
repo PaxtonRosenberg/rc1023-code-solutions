@@ -31,11 +31,11 @@ async function addNote(note: string): Promise<void> {
 }
 
 async function deleteNote(id: string): Promise<void> {
-  if (!id) {
-    console.log('Please provide entry number to delete');
+  const data = await getData();
+  if (!id || data.notes[id] === undefined) {
+    console.log('Please provide valid entry number to delete');
     return;
   }
-  const data = await getData();
   for (const key in data.notes) {
     if (id === key) {
       delete data.notes[key];
@@ -45,11 +45,12 @@ async function deleteNote(id: string): Promise<void> {
 }
 
 async function updateNote(id: string, updatedNote: string): Promise<void> {
-  if (!updatedNote) {
-    console.log('Please enter a new note');
-    return;
-  }
   const data = await getData();
+  if (data.notes[id] === undefined) {
+    console.log('Please provide valid entry number to update');
+  } else if (!updatedNote) {
+    console.log('Please enter an update');
+  }
   for (const key in data.notes) {
     if (id === key) {
       data.notes[id] = updatedNote;
