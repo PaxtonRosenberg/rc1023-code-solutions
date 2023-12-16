@@ -29,12 +29,12 @@ app.post('/api/grades', (req, res) => {
   if (!newGrade.name || !newGrade.course || !newGrade.score) {
     res.sendStatus(404);
   } else {
-    const id: number = nextId++;
+    const id = nextId++;
     grades[id] = { id, ...newGrade };
-    res.sendStatus(201);
+    res.status(201).json(grades[id]);
   }
 });
 
-app.listen(8080, () => {
-  console.log('server is listening on 8080!');
+app.listen(8081, () => {
+  console.log('server is listening on 8081!');
 });
