@@ -1,3 +1,5 @@
 export function findMissingLetter(arr: string[]): string | undefined {
-  return undefined;
+  const alphabet = 'abcdefghijklmnopqrstuvwxyz';
+
+  console.log(alphabet.indexOf('b'));
 }
