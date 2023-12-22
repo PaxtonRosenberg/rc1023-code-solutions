@@ -1,0 +1,22 @@
+.red {
+  background-color: red;
+  color: black;
+}
+
+.green {
+  background-color: green;
+  color: black;
+}
+
+.lightblue {
+  background-color: lightblue;
+  color: black;
+}
+
+.center {
+  width: 1000px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
