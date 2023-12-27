@@ -1,5 +1,17 @@
 export function findMissingLetter(arr: string[]): string | undefined {
-  const alphabet = 'abcdefghijklmnopqrstuvwxyz';
+  const alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  const startIndex = alphabet.indexOf(arr[0]);
 
-  console.log(alphabet.indexOf('b'));
+  for (let i = 0; i < arr.length; i++) {
+    const arrayLetter = arr[i];
+    const alphabetLetter = alphabet[startIndex + i];
+    if (arrayLetter !== alphabetLetter) {
+      return alphabetLetter;
+    }
+  }
+
+  return undefined;
 }
+
+const arr = ['a', 'b', 'c', 'e'];
+findMissingLetter(arr);
