@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.timer {
+  background-color: white;
+  border-radius: 50%;
+  border: 5px solid black;
+  padding: 8rem;
+  margin-bottom: 2rem;
+  font-size: 5rem;
+}
+
+.play {
+  font-size: 4rem;
+}
+
+.pause {
+  font-size: 4rem;
+}
+
+.hidden {
+  display: none;
+}
