@@ -4,13 +4,12 @@ type Props = {
   onCustomClick: (text: string) => void;
 };
 
-export default function CustomButton(props: Props) {
-  function handleClick() {
-    props.onCustomClick(props.text);
-  }
+export default function CustomButton({ text, color, onCustomClick }: Props) {
   return (
-    <button style={{ backgroundColor: props.color }} onClick={handleClick}>
-      {props.text}
+    <button
+      style={{ backgroundColor: color }}
+      onClick={() => onCustomClick(text)}>
+      {text}
     </button>
   );
 }
