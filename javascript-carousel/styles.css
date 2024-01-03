@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+img {
+  border: 5px solid black;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fa-chevron-left {
+  margin-right: 4rem;
+}
+
+.fa-chevron-right {
+  margin-left: 4rem;
+}
+
+.circle-box {
+  margin-top: 1rem;
+}
+
+.fa-circle {
+  padding: 0.5rem;
+}
+
+.bg-color {
+  color: white;
+}
+
+.selected-circle-color {
+  color: black;
+}
+
+.fa-chevron-left:hover,
+.fa-chevron-right:hover,
+.fa-circle:hover {
+  cursor: pointer;
+  color: rgb(112, 108, 108);
+}
