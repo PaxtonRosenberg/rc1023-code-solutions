@@ -27,7 +27,11 @@ export default function RotatingBanner({ animal }: Props) {
     }
   }
 
-  console.log(currentIndex);
+  function handleSelect(index: number) {
+    console.log('from handleSelect:', index);
+    setCurrentIndex(index);
+  }
+
   return (
     <>
       <div className="container"></div>
@@ -36,7 +40,11 @@ export default function RotatingBanner({ animal }: Props) {
         <Banner animal={animal[currentIndex]} />
         <PrevButton onClick={handlePrev} />
         <br></br>
-        <Indicators />
+        <Indicators
+          animal={animal}
+          currentIndex={currentIndex}
+          onSelect={handleSelect}
+        />
         <br></br>
         <NextButton onClick={handleNext} />
       </div>

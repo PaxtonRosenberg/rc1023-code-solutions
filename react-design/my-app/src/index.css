@@ -32,12 +32,5 @@ body {
   border: 5px solid black;
   font-size: 2rem;
   cursor: pointer;
-}
-
-.indicator {
   margin-right: 0.1rem;
-}
-
-.indicator:focus {
-  background-color: rgba(3, 198, 247, 0.349);
 }
