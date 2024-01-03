@@ -23,9 +23,37 @@ body {
   background-color: rgb(250, 250, 183);
 }
 
-.offSwitch,
-.onSwitch {
-  font-size: 6rem;
+.toggleGrey {
+  height: 3.5rem;
+  width: 6rem;
+  border: 5px solid black;
+  border-radius: 40%;
+  background-color: darkgrey;
+}
+
+.toggleGreen {
+  height: 3.5rem;
+  width: 6rem;
+  border: 5px solid black;
+  border-radius: 40%;
+  background-color: lightgreen;
+}
+
+.toggleOff {
+  height: 2.9rem;
+  width: 3rem;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 40%;
+}
+
+.toggleOn {
+  height: 2.9rem;
+  width: 3rem;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 40%;
+  margin-left: 2.4rem;
 }
 
 .onText,

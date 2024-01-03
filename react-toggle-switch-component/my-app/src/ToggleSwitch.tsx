@@ -1,23 +1,22 @@
-import { FaToggleOn, FaToggleOff } from 'react-icons/fa';
 import { useState } from 'react';
 
 export default function ToggleSwitch() {
   const [light, setLight] = useState(false);
   const [onText, setOnText] = useState('hidden');
   const [offText, setOffText] = useState('offText');
-  const [onSwitch, setOnSwitch] = useState('hidden');
-  const [offSwitch, setOffSwitch] = useState('offSwitch');
   const [box, setBox] = useState('offBox');
+  const [toggle, setToggle] = useState('toggleOff');
+  const [bgColor, setBgColor] = useState('toggleGrey');
 
   function toggleSwitch() {
     if (!light) {
-      setOnSwitch('onSwitch');
-      setOffSwitch('hidden');
+      setToggle('toggleOn');
       setLight(true);
+      setBgColor('toggleGreen');
     } else {
-      setOffSwitch('offSwitch');
-      setOnSwitch('hidden');
+      setToggle('toggleOff');
       setLight(false);
+      setBgColor('toggleGrey');
     }
   }
 
@@ -47,8 +46,9 @@ export default function ToggleSwitch() {
 
   return (
     <div className={box}>
-      <FaToggleOn className={onSwitch} onClick={handleClick} />
-      <FaToggleOff className={offSwitch} onClick={handleClick} />
+      <div className={bgColor}>
+        <div className={toggle} onClick={handleClick}></div>
+      </div>
       <p className={offText}>OFF</p>
       <p className={onText}>ON</p>
     </div>
