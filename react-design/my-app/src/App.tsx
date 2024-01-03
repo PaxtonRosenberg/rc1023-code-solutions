@@ -10,9 +10,10 @@ function App() {
     'Elephant',
     'Ferret',
   ];
+
   return (
     <>
-      <RotatingBanner animals={items} />
+      <RotatingBanner animal={items} />
     </>
   );
 }

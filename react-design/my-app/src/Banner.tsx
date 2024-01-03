@@ -1,7 +1,7 @@
 type Props = {
-  animals: string[];
+  animal: string;
 };
 
-export default function Banner({ animals }: Props) {
-  return <p className="animalNames">{animals}</p>;
+export default function Banner({ animal }: Props) {
+  return <p className="animalNames">{animal}</p>;
 }
