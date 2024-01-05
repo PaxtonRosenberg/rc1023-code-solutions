@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../light_grey_dots_background.jpg');
+  margin: 0;
+  padding: 0;
+}
+
+.animalNames {
+  font-size: 2rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  height: 10rem;
+  width: 100%;
+  background-image: url('../blue_dot_gradient.jpg');
+}
+
+.customButton {
+  background-color: transparent;
+  border: 5px solid black;
+  font-size: 2rem;
+  cursor: pointer;
+  margin-right: 0.1rem;
+}
