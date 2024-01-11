@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('hylian-emblem.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+}
+
+h3 {
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+ul {
+  margin: 1rem;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+li:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.hamburgerMenu {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.menu {
+  width: 250px;
+  height: 100vh;
+  background-color: white;
+  border: 3px solid black;
+  box-shadow: 5px 3px 3px black;
+  transform: translateX(-283px);
+  transition: transform 0.2s ease-in-out;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.overlay {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  pointer-events: all;
+}
+
+.container.overlay .menu {
+  transform: translateX(0);
+}
