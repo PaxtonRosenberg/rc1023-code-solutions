@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+
 import 'dotenv/config';
 import pg from 'pg';
 import argon2 from 'argon2';
@@ -43,7 +45,7 @@ app.post('/api/auth/sign-up', async (req, res, next) => {
     const params = [username, hashedPassword];
     const result = await db.query<User>(sql, params);
     const [newUser] = result.rows;
-    res.status(201).json(newUser)
+    res.status(201).json(newUser);
     /* TODO:
      * Hash the user's password with `argon2.hash()`
      * Insert the user's "username" and "hashedPassword" into the "users" table.
