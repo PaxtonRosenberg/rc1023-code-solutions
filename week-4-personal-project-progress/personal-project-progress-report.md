@@ -14,7 +14,7 @@ Right now I am having some trouble figuring out how to use the ChatGPT API corre
 
 Personal Portfolio - I like the design so far, need to figure out deployment
 
-Suerte Tequila - I think our version is better than the original, just need to link up the chatgpt API.
+Suerte Tequila - I think the version we created is better than the original, just need to link up the chatgpt API.
 
 1. Is your project on the path towards what you envisioned? Are there any areas of your project that need to be reimagined?
 
